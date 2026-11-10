@@ -1,0 +1,37 @@
+# Build output
+build/
+Debug/
+Release/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.htm
+*.lnp
+*.dep
+*.iex
+*.sct.bak
+
+# Keil MDK-ARM: file ca nhan / output
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx.bak
+MDK-ARM/*.uvprojx.bak
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/BAI_TAP_LON/
+MDK-ARM/JLinkLog.txt
+MDK-ARM/JLinkSettings.ini
+*.bak
+
+# STM32CubeIDE / Eclipse
+.settings/
+*.launch
+
+# He dieu hanh
+.DS_Store
+Thumbs.db
